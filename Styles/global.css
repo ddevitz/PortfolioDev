@@ -23,9 +23,28 @@
   --font-family-maven: "Maven Pro", serif;
 
   --title-lg: 700 56px/120% var(--font-family-asap);
-  --title-mg: 700 24px/120% var(--font-family-asap);
+  --title-md: 700 24px/120% var(--font-family-asap);
   --title-sm: 700 16px/120% var(--font-family-asap);
   --subtitle: 100 20px/120% var(--font-family-inconsolata);
   --text-md: 400 16px/140% var(--font-family-maven);
   --text-sm: 400 14px/140% var(--font-family-maven);
+}
+
+body {
+  color: var(--gray-500);
+  background-color: var(--gray-200);
+}
+
+.container{
+  max-width: 1040px;
+  padding-inline: 32px;
+  margin: 128px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
 }
