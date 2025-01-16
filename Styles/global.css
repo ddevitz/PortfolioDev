@@ -31,8 +31,22 @@
 }
 
 body {
+  position: relative;
   color: var(--gray-500);
   background-color: var(--gray-200);
+}
+
+#bg-intro{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#bg-contacts{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
 }
 
 .container{
