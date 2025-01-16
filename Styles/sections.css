@@ -48,6 +48,10 @@
 
   margin-top: 0px;
 
+  .subtitle{
+    color: var(--red);
+  }
+
   #cards{
     margin-top: 56px;
 
@@ -76,6 +80,14 @@
 
   .sectionTitle{
     margin-bottom: 56px;
+
+    .subtitle{
+      color: var(--red);
+    }
+
+    h2{
+      margin-top: 8px;
+    }
   }
 
   #cards{
@@ -95,14 +107,30 @@
 
         margin-bottom: 20px;
       }
+
+      p{
+        margin-top: 8px;
+      }
     }
   }
 }
 
 #contacts{
 
+  .container{
+    padding-bottom: 70px;
+  }
+
   .sectionTitle{
     margin-bottom: 48px;
+
+    .subtitle{
+      color: var(--purple);
+    }
+
+    h2{
+      margin-block: 8px;
+    }
   }
 
   #links{
@@ -128,4 +156,3 @@
     }
   }
 }
-

@@ -25,7 +25,7 @@
   --title-lg: 700 56px/120% var(--font-family-asap);
   --title-md: 700 24px/120% var(--font-family-asap);
   --title-sm: 700 16px/120% var(--font-family-asap);
-  --subtitle: 100 20px/120% var(--font-family-inconsolata);
+  --subtitle: 400 20px/120% var(--font-family-inconsolata);
   --text-md: 400 16px/140% var(--font-family-maven);
   --text-sm: 400 14px/140% var(--font-family-maven);
 }
@@ -58,5 +58,5 @@ a {
 
 a:hover{
   color: var(--blue);
+  border: 1px solid var(--blue);
 }
-
