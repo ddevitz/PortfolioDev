@@ -22,24 +22,55 @@
   #arrowDown{
     margin-top: 96px;
   }
-}
 
-#description{
-  max-width: 680px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- 
-  .description{
-    margin-block: 56px 80px;
-
+  #description{
+    max-width: 680px;
+  
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+    .description{
+      margin-block: 56px 80px;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      h1{
+        margin-block: 8px 20px;
+      }
+    }
+  }
+}
 
-    h1{
-      margin-block: 8px 20px;
+#jobs{
+  margin-top: 0px;
+
+  .titleJobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #cards{
+    margin-top: 56px;
+
+    .card{
+      width: 330px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      padding: 12px;
+    
+      img {
+        width: 306px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      p{
+        margin-top: 8px;        
+      }
     }
   }
 }
