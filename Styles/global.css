@@ -51,6 +51,12 @@ body {
   align-items: center;
 }
 
-a{
+a {
   text-decoration: none;
+  color: inherit;
 }
+
+a:hover{
+  color: var(--blue);
+}
+

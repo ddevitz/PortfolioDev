@@ -98,3 +98,34 @@
     }
   }
 }
+
+#contacts{
+
+  .sectionTitle{
+    margin-bottom: 48px;
+  }
+
+  #links{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  a {
+    width: 400px;
+    padding: 20px;
+
+    background-color: var(--gray-300);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+  
+    div{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+  }
+}
+
